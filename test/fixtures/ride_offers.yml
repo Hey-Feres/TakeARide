@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  driver_id: MyString
+  leaving_place: MyString
+  leaving_time: 2022-05-14 23:21:17
+  leaving_date: 2022-05-14
+  car_model: MyString
+  car_color: MyString
+  car_license_plate: MyString
+  available_seats: 1
+
+two:
+  driver_id: MyString
+  leaving_place: MyString
+  leaving_time: 2022-05-14 23:21:17
+  leaving_date: 2022-05-14
+  car_model: MyString
+  car_color: MyString
+  car_license_plate: MyString
+  available_seats: 1
