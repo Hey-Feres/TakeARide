@@ -17,9 +17,16 @@ ActiveRecord::Schema.define(version: 2022_05_15_023757) do
 
   create_table "ride_offers", force: :cascade do |t|
     t.bigint "driver_id"
-    t.string "leaving_place"
+    t.string "starting_place"
     t.time "leaving_time"
     t.date "leaving_date"
+    t.string "starting_address_street"
+    t.string "starting_address_number"
+    t.string "starting_address_neighborhood"
+    t.string "starting_address_zip"
+    t.decimal "starting_address_lng"
+    t.decimal "starting_address_lat"
+    t.string "starting_address_reference"
     t.string "car_model"
     t.string "car_color"
     t.string "car_license_plate"
