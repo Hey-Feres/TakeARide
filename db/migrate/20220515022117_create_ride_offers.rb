@@ -6,11 +6,12 @@ class CreateRideOffers < ActiveRecord::Migration[6.1]
       t.time       :leaving_time
       t.date       :leaving_date
       t.string     :starting_address_street
+      t.string     :starting_address_city
       t.string     :starting_address_number
       t.string     :starting_address_neighborhood
       t.string     :starting_address_zip
-      t.decimal    :starting_address_lng
-      t.decimal    :starting_address_lat
+      t.decimal    :starting_address_longitude
+      t.decimal    :starting_address_latitude
       t.string     :starting_address_reference
       t.string     :car_model
       t.string     :car_color
